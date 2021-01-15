@@ -1,0 +1,23 @@
+{
+  "name": "set-vnc-server-resolution",
+  "version": "1.0.0",
+  "description": "Set Headless VNC server resolution",
+  "main": "main.ps1",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shoaibmansoor/SetVnvResolution.git"
+  },
+  "keywords": [
+    "headless",
+    "vnc"
+  ],
+  "author": "Shoaib Mansoor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shoaibmansoor/SetVnvResolution/issues"
+  },
+  "homepage": "https://github.com/shoaibmansoor/SetVnvResolution#readme"
+}

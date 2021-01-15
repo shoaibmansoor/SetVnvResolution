@@ -1,0 +1,2 @@
+Import-Module -Name SetHeadlessVncResolution
+Set-HeadlessVncResolution
