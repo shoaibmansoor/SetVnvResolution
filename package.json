@@ -1,13 +1,13 @@
 {
   "name": "set-vnc-server-resolution",
-  "version": "1.0.1",
+  "version": "1.0.8",
   "description": "Set Headless VNC server resolution.",
   "main": "main.ps1",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "powershell ./main.ps1"
   },
-  "bin": "./main.ps1",
+  "bin": "./bin/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/shoaibmansoor/SetVnvResolution.git"
