@@ -60,8 +60,9 @@ function Set-HeadlessVncResolution {
             Set-Registry-Value -reg_path "$reg_path\$name\00\00" -reg_name "Stride" -reg_value $stride
         }
     }
-    
-    Write-Host ("** VNC Server resolution is set to $height x $width **")
+    if ($? -eq $true) {
+        Write-Host ("** VNC Server resolution is set to $height x $width **")
+    }
 }
 
 Export-ModuleMember -Function * -Cmdlet *
