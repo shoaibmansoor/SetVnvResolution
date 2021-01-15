@@ -1,7 +1,7 @@
 {
   "name": "set-vnc-server-resolution",
   "version": "1.0.0",
-  "description": "Set Headless VNC server resolution",
+  "description": "Set Headless VNC server resolution.",
   "main": "main.ps1",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
