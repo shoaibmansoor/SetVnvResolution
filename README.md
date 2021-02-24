@@ -1,1 +1,1 @@
-# SetVnvResolution
+# SetVncResolution
