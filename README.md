@@ -1,4 +1,4 @@
-SetVncResolution
+SetVncServerResolution
 ===
 
 Node module to set vnc resolution based on [link](https://superuser.com/a/1334787). 
