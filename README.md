@@ -29,6 +29,7 @@ or
 set-vnc-server-resolution --width=1024 --height=768
 ```
 
+> **Restart your system to apply registry changes, and Done!!!**
 
 ## Commandline Arguments:
 * -h, --height: To set height of vnc server [default: 1080] (optional)
