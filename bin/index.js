@@ -36,13 +36,14 @@ function processArgs() {
     if (!args.h) {
         throw new Error('height cannot be 0');
     }
+    return args;
 }
 
 function main() {
-    processArgs();
+    const args = processArgs();
     let globalPath = execSync("npm root -g").toString().trim();
-
     const ps1_path = `${globalPath.trim()}/set-vnc-server-resolution/bin/SetHeadlessVncResolution.ps1`;
+    
     const powershellArgs = [path.resolve(ps1_path)]
     powershellArgs.push(`-w=${args.w}`);
     powershellArgs.push(`-h=${args.h}`);
