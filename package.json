@@ -1,6 +1,6 @@
 {
   "name": "set-vnc-server-resolution",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Set Headless VNC server resolution.",
   "main": "main.ps1",
   "scripts": {
