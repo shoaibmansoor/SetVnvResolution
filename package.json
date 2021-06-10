@@ -15,7 +15,10 @@
   },
   "keywords": [
     "headless",
-    "vnc"
+    "vnc",
+    "headless-desktop",
+    "vnc server resolution",
+    "vnc resolution"
   ],
   "author": "Shoaib Mansoor",
   "license": "ISC",
