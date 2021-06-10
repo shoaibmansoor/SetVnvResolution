@@ -4,8 +4,9 @@
   "description": "Set Headless VNC server resolution.",
   "main": "main.ps1",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "powershell ./main.ps1"
+    "test": "node bin/index.js --width=1024",
+    "start": "powershell ./bin/SetHeadlessVncResolution.ps1 -h=1919 -w=1079",
+    "help": "node bin/index.js --help"
   },
   "bin": "./bin/index.js",
   "repository": {
@@ -21,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/shoaibmansoor/SetVnvResolution/issues"
   },
-  "homepage": "https://github.com/shoaibmansoor/SetVnvResolution#readme"
+  "homepage": "https://github.com/shoaibmansoor/SetVnvResolution#readme",
+  "dependencies": {
+    "minimist": "^1.2.5"
+  }
 }
